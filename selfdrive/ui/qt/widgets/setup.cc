@@ -165,7 +165,7 @@ SetupWidget::SetupWidget(QWidget* parent) : QFrame(parent) {
   QVBoxLayout* finishRegistationLayout = new QVBoxLayout;
   finishRegistationLayout->setMargin(30);
 
-  QLabel* registrationDescription = new QLabel("Pair your device with the comma connect app");
+  QLabel* registrationDescription = new QLabel(tr("Pair your device with the comma connect app"));
   registrationDescription->setWordWrap(true);
   registrationDescription->setAlignment(Qt::AlignCenter);
   registrationDescription->setStyleSheet(R"(
