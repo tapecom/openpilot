@@ -43,12 +43,12 @@ void DriveStats::parseResponse(const QString& response) {
 
 DriveStats::DriveStats(QWidget* parent) : QWidget(parent) {
   metric = Params().getBool("IsMetric");
-  QString distance_unit = metric ? "KM" : "MILES";
+  QString distance_unit = metric ? tr("KM") : tr("MILES");
 
   auto add_stats_layouts = [&](QGridLayout* gl, StatsLabels& labels, int row, const QString &distance_unit) {
-    gl->addLayout(build_stat_layout(&labels.routes, "DRIVES"), row, 0, 3, 1);
+    gl->addLayout(build_stat_layout(&labels.routes, tr("DRIVES")), row, 0, 3, 1);
     gl->addLayout(build_stat_layout(&labels.distance, distance_unit), row, 1, 3, 1);
-    gl->addLayout(build_stat_layout(&labels.hours, "HOURS"), row, 2, 3, 1);
+    gl->addLayout(build_stat_layout(&labels.hours, tr("HOURS")), row, 2, 3, 1);
   };
 
   QGridLayout* gl = new QGridLayout(this);
