@@ -1,3 +1,16 @@
+# แวะอ่านซักนิด
+
+Fork นี้ทดสอบบน Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และ Comma 2 เท่านั้นนะครับ ยังไม่เคยทดสอบกับรถรุ่นอื่นๆ และ Comma ตัวอื่นๆ นะครับ
+
+โดย Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/openpilot) ทั้งดุ้น เอามาเพิ่ม Fingerprint v2 ของ Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/)
+
+ขอขอบคุณทั้ง Shane และ AlexandreSato ด้วยนะคร้าบ...
+
+ติดตั้ง ใส่ URL : https://smiskol.com/fork/tapecom ลงในช่อง Custom Software ของหน้าจอ Setup ตัว Comma ได้เลย
+
+รายละเอียดของ Fork ดูด้านล่างได้เลยจ้า...
+
+---
 # Stock Additions - [2022-01-01](/SA_RELEASES.md) (0.8.13)
 
 Stock Additions is a fork of openpilot designed to be minimal in design while boasting various feature additions and behavior improvements over stock. I have a 2017 Toyota Corolla with comma pedal, so most of my changes are designed to improve the longitudinal performance.
