@@ -2,7 +2,10 @@
 
 Fork นี้ทดสอบบน Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และ Comma 2 เท่านั้นนะครับ ยังไม่เคยทดสอบกับรถรุ่นอื่นๆ และ Comma ตัวอื่นๆ นะครับ
 
-โดย Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/openpilot) ทั้งดุ้น เอามาเพิ่ม Fingerprint v2 ของ Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/)
+ถ้าจะลองทดสอบกับรุ่นอื่นๆ ให้แก้ไฟล์ [launch_env.sh](https://github.com/tapecom/openpilot/blob/SA-master-SnG/launch_env.sh) ที่บรรทัดสุดท้ายด้วยนะครับ
+ชื่อรถให้ดูจากไฟล์ [values.py](https://github.com/tapecom/openpilot/blob/SA-master-SnG/selfdrive/car/toyota/values.py)
+
+Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/openpilot) ทั้งดุ้น เอามาเพิ่ม Fingerprint v2 ของ Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/)
 
 ขอขอบคุณทั้ง Shane และ AlexandreSato ด้วยนะคร้าบ...
 
