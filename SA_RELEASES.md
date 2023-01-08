@@ -1,5 +1,9 @@
 Stock Additions 0.8.13
 ===
+## - 2022-05-10
+ * Revert Stock Additions merge last month causing C2 issues
+## - 2022-04-11
+ * Update Stock Additions to a newer version of upstream/master (Feb 4)
 ## - 2022-01-20
  * Sentry Mode (beta): records video and plays alert when car is bumped
 ## - 2022-01-17
