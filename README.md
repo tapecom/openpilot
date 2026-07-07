@@ -9,10 +9,9 @@ Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/open
 
 ขอขอบคุณทั้ง Shane และ AlexandreSato ด้วยนะคร้าบ...
 
-ติดตั้ง ใส่ URL : https://smiskol.com/fork/tapecom ลงในช่อง Custom Software ของหน้าจอ Setup ตัว Comma ได้เลย
+---
 
-รายละเอียดของ Fork ดูด้านล่างได้เลยจ้า...
-
+ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ
 ---
 # Stock Additions - [2022-01-01](/SA_RELEASES.md) (0.8.13)
 
