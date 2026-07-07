@@ -1,3 +1,12 @@
+# แวะอ่านซักนิด
+
+Branch นี้นำเอา openpilot version สุดท้ายที่สามารถใช้งานกับอุปกรณ์ [commatwo](https://github.com/commaai/openpilot/wiki/comma-two) ได้ มาเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/) เพื่อใช้สำหรับรถ Toyota Corolla Cross HEV Premium Safety 2020 ที่ขายในประเทศไทย เท่านั้นนะครับ ยังไม่เคยทดสอบกับรถรุ่นอื่นๆ
+
+ถ้าจะลองทดสอบกับรุ่นอื่นๆ ให้แก้ไฟล์ [launch_env.sh](https://github.com/tapecom/openpilot/blob/commatwo_master-SnG/launch_env.sh) ที่บรรทัดสุดท้ายนะครับ
+ชื่อรถให้ดูจากไฟล์ [values.py](https://github.com/tapecom/openpilot/blob/commatwo_master-SnG/selfdrive/car/toyota/values.py)
+
+ขอขอบคุณทั้ง Shane และ AlexandreSato คร้าบ...
+
 ![](https://i.imgur.com/b0ZyIx5.jpg)
 
 Table of Contents
