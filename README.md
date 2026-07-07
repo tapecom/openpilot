@@ -1,17 +1,18 @@
 # แวะอ่านซักนิด
 
-Fork นี้ทดสอบบน Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และ Comma 2 เท่านั้นนะครับ ยังไม่เคยทดสอบกับรถรุ่นอื่นๆ และ Comma ตัวอื่นๆ นะครับ
+Fork นี้ทดสอบบน Toyota Corolla Cross Hybrid Premium Safety 2020 ที่ขายในประเทศไทย และ Comma 2 เท่านั้นนะครับ ยังไม่เคยทดสอบกับรถรุ่นอื่นๆ และ Comma รุ่นอื่นๆ นะครับ
 
 ถ้าจะลองทดสอบกับรุ่นอื่นๆ ให้แก้ไฟล์ [launch_env.sh](https://github.com/tapecom/openpilot/blob/SA-master-SnG/launch_env.sh) ที่บรรทัดสุดท้ายด้วยนะครับ
 ชื่อรถให้ดูจากไฟล์ [values.py](https://github.com/tapecom/openpilot/blob/SA-master-SnG/selfdrive/car/toyota/values.py)
 
-Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/openpilot) ทั้งดุ้น เอามาเพิ่ม Fingerprint v2 ของ Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/)
+Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/openpilot) ทั้งดุ้น เอามาเพิ่ม Fingerprint ของ Toyota Corolla Cross Hybrid Premium Safety ที่ขายในประเทศไทย และเพิ่มความสามารถ Stop and Go โดยใช้วิธีของ [AlexandreSato](https://github.com/AlexandreSato/openpilot/)
 
 ขอขอบคุณทั้ง Shane และ AlexandreSato ด้วยนะคร้าบ...
 
----
+ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ เอาไว้ติดตั้งผ่าน Custom URL
 
-ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ
+! ท่านใดที่ติดตั้ง [NEOS 20](https://github.com/commaai/eon-neos/releases/tag/neos20) ไปแล้ว จะติดตั้ง branch นี้ไม่ได้ ให้ลองไปใช้ branch [commatwo_master-SnG](https://github.com/tapecom/openpilot/tree/commatwo_master-SnG) แทนนะครับ (ยังไม่ได้ทดสอบ)
+
 ---
 # Stock Additions - [2022-01-01](/SA_RELEASES.md) (0.8.13)
 
