@@ -26,7 +26,8 @@ class CarState(CarStateBase):
     self.has_zss = CP.hasZss
 
     self.low_speed_lockout = False
-    self.acc_type = 1
+    self.acc_type = 1          # always sent out to the car (SnG override)
+    self.stock_acc_type = 1    # real ACC_TYPE as reported by the car's own camera
 
     # Toyota Distance Button
     op_params = opParams()
@@ -103,6 +104,9 @@ class CarState(CarStateBase):
       ret.cruiseState.available = cp.vl["PCM_CRUISE_2"]["MAIN_ON"] != 0
       ret.cruiseState.speed = cp.vl["PCM_CRUISE_2"]["SET_SPEED"] * CV.KPH_TO_MS
 
+    if self.CP.carFingerprint in TSS2_CAR:
+      self.stock_acc_type = cp_cam.vl["ACC_CONTROL"]["ACC_TYPE"]
+
     if self.enable_distance_btn:
       if self.CP.carFingerprint in TSS2_CAR:
         self.distance_btn = 1 if cp_cam.vl["ACC_CONTROL"]["DISTANCE"] == 1 else 0
@@ -121,7 +125,7 @@ class CarState(CarStateBase):
     # TODO: it is possible to avoid the lockout and gain stop and go if you
     # send your own ACC_CONTROL msg on startup with ACC_TYPE set to 1
     if (self.CP.carFingerprint not in TSS2_CAR and self.CP.carFingerprint not in [CAR.LEXUS_IS, CAR.LEXUS_RC]) or \
-       (self.CP.carFingerprint in TSS2_CAR and self.acc_type == 1):
+       (self.CP.carFingerprint in TSS2_CAR and self.stock_acc_type == 1):
       self.low_speed_lockout = cp.vl["PCM_CRUISE_2"]["LOW_SPEED_LOCKOUT"] == 2
 
     self.pcm_acc_status = cp.vl["PCM_CRUISE"]["CRUISE_STATE"]
