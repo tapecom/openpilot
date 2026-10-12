@@ -9,10 +9,12 @@ Fork นี้จะยกมาจาก [Shane](https://github.com/sshane/open
 
 ขอขอบคุณทั้ง Shane และ AlexandreSato ด้วยนะคร้าบ...
 
-ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ เอาไว้ติดตั้งผ่าน Custom URL
+Custom URL สำหรับติดตั้ง [https://installer.comma.ai/tapecom/SA-master-SnG](https://installer.comma.ai/tapecom/SA-master-SnG)
 
 ! ท่านใดที่ติดตั้ง [NEOS 20](https://github.com/commaai/eon-neos/releases/tag/neos20) ไปแล้ว จะติดตั้ง branch นี้ไม่ได้ ให้ลองไปใช้ branch [commatwo_master-SnG](https://github.com/tapecom/openpilot/tree/commatwo_master-SnG) แทนนะครับ (ยังไม่ได้ทดสอบ)
+Custom URL สำหรับติดตั้ง [https://installer.comma.ai/tapecom/commatwo_master-SnG](https://installer.comma.ai/tapecom/commatwo_master-SnG)
 
+ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ เอาไว้สร้าง URL สำหรับติดตั้งผ่าน Custom URL ของตัวเอง
 ---
 # Stock Additions - [2022-01-01](/SA_RELEASES.md) (0.8.13)
 
