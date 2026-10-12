@@ -15,6 +15,7 @@ Custom URL สำหรับติดตั้ง [https://installer.comma.ai/t
 Custom URL สำหรับติดตั้ง [https://installer.comma.ai/tapecom/commatwo_master-SnG](https://installer.comma.ai/tapecom/commatwo_master-SnG)
 
 ไม่แน่ใจว่า [openpilot-installer-generator](https://github.com/sshane/openpilot-installer-generator) ยังใช้งานได้หรือไม่ ลองโหลด code ไป host ดูกันนะครับ เอาไว้สร้าง URL สำหรับติดตั้งผ่าน Custom URL ของตัวเอง
+
 ---
 # Stock Additions - [2022-01-01](/SA_RELEASES.md) (0.8.13)
 
