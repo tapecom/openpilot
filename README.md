@@ -7,6 +7,8 @@ Branch นี้นำเอา openpilot version สุดท้ายที่
 
 ขอขอบคุณทั้ง Shane และ AlexandreSato คร้าบ...
 
+Custom URL สำหรับติดตั้ง [https://installer.comma.ai/tapecom/commatwo_master-SnG](https://installer.comma.ai/tapecom/commatwo_master-SnG)
+
 ![](https://i.imgur.com/b0ZyIx5.jpg)
 
 Table of Contents
